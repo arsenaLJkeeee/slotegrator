@@ -87,7 +87,7 @@ public class SlotegratorTests extends SlotegratorTestBase{
             $(byText("About us")).hover()
                     .shouldBe(visible);
 
-            $(byText("Career")).hover()
+            $(byText("Careers")).hover()
                     .shouldBe(visible);
 
             $(byText("News")).hover()
