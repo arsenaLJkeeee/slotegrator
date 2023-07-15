@@ -103,13 +103,24 @@ public class SlotegratorTests extends SlotegratorTestBase{
                     .shouldBe(visible);
         });
 
-        step("Click on Contacts", () -> {
+        step("Check if Company menu items are working", () -> {
+
+            $(".toggle_search_main_menu")
+                    .shouldBe(visible)
+                    .click();
+            $(".search-form")
+                    .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Slotegrator, just hire me!");
+
+        });
+
+
+        /*step("Click on Contacts", () -> {
             $(byText("Contacts")).hover()
                     .shouldBe(visible, Duration.ofSeconds(3))
                     .click(); //ClickOptions.usingJavaScript()
 
 
-            $("#form-name")
+           $("#form-name")
                     .shouldBe(visible, Duration.ofSeconds(10));
             executeJavaScript("document.getElementById('form-name').value = 'Vladimir Borchevskiy';");
             $("#form-email")
@@ -121,7 +132,7 @@ public class SlotegratorTests extends SlotegratorTestBase{
             $("#form-text")
                     .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Slotegrator, just hire me!");
 
-        });
+        });*/
 
         sleep(50000);
 
