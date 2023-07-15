@@ -1,6 +1,7 @@
 package pro.slotegrator;
 
 import com.codeborne.selenide.ClickOptions;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Tag;
@@ -102,7 +103,9 @@ public class SlotegratorTests extends SlotegratorTestBase{
             $(byText("FAQ")).hover()
                     .shouldBe(visible);
         });
-
+        step("Switch to iframe", () -> {
+            Selenide.switchTo().frame($("iframe[src='https://www.googletagmanager.com/ns.html?id=GTM-N6TC6X']"));
+        });
         step("Check if Company menu items are working", () -> {
 
             $("#toggle_search_main_menu")
