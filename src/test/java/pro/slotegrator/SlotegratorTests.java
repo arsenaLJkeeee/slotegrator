@@ -105,10 +105,10 @@ public class SlotegratorTests extends SlotegratorTestBase{
 
         step("Check if Company menu items are working", () -> {
 
-            $("toggle_search_main_menu")
+            $("#toggle_search_main_menu")
                     .shouldBe(visible)
                     .click();
-            $("search-form")
+            $(".search-form")
                     .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Slotegrator, just hire me!");
 
         });
