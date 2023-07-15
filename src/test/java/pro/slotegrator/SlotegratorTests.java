@@ -108,7 +108,7 @@ public class SlotegratorTests extends SlotegratorTestBase{
             $("#toggle_search_main_menu")
                     .shouldBe(visible)
                     .click();
-            $(".search-form")
+            $("#toggle_search_main_menu input[name='keyword']")
                     .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Slotegrator, just hire me!");
 
         });
