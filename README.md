@@ -1,7 +1,7 @@
 
-# QA Auto project for [Evolving Web](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwierczhmpCAAxWK76QKHfzXD1QQFnoECBMQAQ&url=https%3A%2F%2Fevolvingweb.com%2F&usg=AOvVaw1LB0mSVWIU8-3E3OG_k3Ga&opi=89978449)
+# QA Auto project for [Slotegrator](https://slotegrator.pro/)
 
-> Evolving Web Evolving Web is a Montreal-based team of Drupal experts. We provide consulting, development, and training services to guide their clients to success.
+> Slotegrator, a leading software supplier and aggregator for online casino and sportsbook operators, has been developing innovative business solutions and client-oriented business services in the gambling industry since 2012.
 
 ## **Contains:**
 ____
@@ -84,8 +84,8 @@ ___
 ### *Test-cases*
 
 <p align="center">  
-<img title="Allure Tests" src="images/screen/evolvingwebtestcases.jpg" width="850">  
-<img title="Allure Tests" src="images/screen/evolvingwebdataoftestcases.jpg" width="850">  
+<img title="Allure Tests" src="images/screen/slotegratortestcases.jpg" width="850">  
+<img title="Allure Tests" src="images/screen/slotegratordataoftestcases.jpg" width="850">  
 </p>
 
 ### *Graphics*
@@ -101,6 +101,6 @@ ____
 ## <img alt="Selenoid" height="25" src="images/logo/Selenoid.svg" width="25"/></a> Video of launched automated tests
 ____
 <p align="center">
-<img title="Selenoid Video" src="images/video/evolvingweb.gif" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="images/video/slotegrator.gif" width="550" height="350"  alt="video">   
 </p>
 

@@ -112,7 +112,6 @@ public class SlotegratorTests extends SlotegratorTestBase{
                     .click();
         });
 
-
         sleep(50000);
 
     }
