@@ -110,6 +110,7 @@ public class SlotegratorTests extends SlotegratorTestBase{
 
 
             $("#form-name")
+                    .shouldBe(visible, Duration.ofSeconds(10))
                     .setValue("Vladimir Borchevskiy");
             $("#form-email")
                     .setValue("arsenaljkeeee10@gmail.com");
