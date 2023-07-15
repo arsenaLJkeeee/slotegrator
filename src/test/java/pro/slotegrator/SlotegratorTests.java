@@ -107,7 +107,6 @@ public class SlotegratorTests extends SlotegratorTestBase{
 
         step("Check search field", () -> {
 
-
             $("#toggle_search_main_menu")
                     .shouldBe(visible)
                     .click();
