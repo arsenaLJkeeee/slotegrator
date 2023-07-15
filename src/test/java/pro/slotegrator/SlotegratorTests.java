@@ -106,7 +106,7 @@ public class SlotegratorTests extends SlotegratorTestBase{
         step("Click on Contacts", () -> {
             $(byText("Contacts")).hover()
                     .shouldBe(visible, Duration.ofSeconds(3))
-                    .click(ClickOptions.usingJavaScript());
+                    .click(); //ClickOptions.usingJavaScript()
 
 
             $("#form-name")
