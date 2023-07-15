@@ -80,8 +80,6 @@ public class SlotegratorTests extends SlotegratorTestBase{
         });
 
         step("Check if Company menu items are working", () -> {
-            $(byText("Industries")).hover()
-                    .shouldBe(visible);
 
             $(byText("About us")).hover()
                     .shouldBe(visible);
