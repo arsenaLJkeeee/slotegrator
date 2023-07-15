@@ -103,39 +103,16 @@ public class SlotegratorTests extends SlotegratorTestBase{
             $(byText("FAQ")).hover()
                     .shouldBe(visible);
         });
-        step("Switch to iframe", () -> {
-            Selenide.switchTo().frame($("iframe[src='https://www.googletagmanager.com/ns.html?id=GTM-N6TC6X']"));
-        });
-        step("Check if Company menu items are working", () -> {
+
+
+        step("Check search field", () -> {
+
 
             $("#toggle_search_main_menu")
                     .shouldBe(visible)
                     .click();
-            $("#toggle_search_main_menu input[name='keyword']")
-                    .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Slotegrator, just hire me!");
-
         });
 
-
-        /*step("Click on Contacts", () -> {
-            $(byText("Contacts")).hover()
-                    .shouldBe(visible, Duration.ofSeconds(3))
-                    .click(); //ClickOptions.usingJavaScript()
-
-
-           $("#form-name")
-                    .shouldBe(visible, Duration.ofSeconds(10));
-            executeJavaScript("document.getElementById('form-name').value = 'Vladimir Borchevskiy';");
-            $("#form-email")
-                    .setValue("arsenaljkeeee10@gmail.com");
-            $("#form-phone")
-                    .setValue("+995597078392");
-            $(".directorist-select__search directorist-select__search--show")
-                    .selectOption("Book a meeting");
-            $("#form-text")
-                    .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Slotegrator, just hire me!");
-
-        });*/
 
         sleep(50000);
 
