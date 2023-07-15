@@ -18,7 +18,7 @@ import static io.qameta.allure.Allure.step;
 public class SlotegratorTests extends SlotegratorTestBase{
     @Tag("remote")
     @Test
-    void smokeEvolvingWebMainPageTest() {
+    void smokeSlotegratorMainPageTest() {
 
 
         SelenideLogger.addListener("allure", new AllureSelenide());
