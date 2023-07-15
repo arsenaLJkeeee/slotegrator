@@ -45,7 +45,7 @@ public class SlotegratorTests extends SlotegratorTestBase{
         });
 
         step("Check if Products and services menu is working", () -> {
-            $(byText("Services")).hover()
+            $(byText("Products and services")).hover()
                     .shouldBe(visible);
 
             $(byText("All products")).hover()
